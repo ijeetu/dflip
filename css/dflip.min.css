@@ -1511,8 +1511,14 @@ body.df-lightbox-open {
 }
 body{
   padding-top:30px;
-  background: linear-gradient(to right,#b2dcb5,#63cb6a);
-  background-color:linear-gradient(to right,#b2dcb5,#63cb6a) !important;
+  background-image: url("/assest/bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
 }
 .df-floating .df-ui-controls{
   bottom: 20px !important;
